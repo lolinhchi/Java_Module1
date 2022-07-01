@@ -18,11 +18,6 @@ public class HT<T> {
 	public String xuat() {
 		return String.format("Chu vi: %.2f, Diện tích: %.2f", chuVi(), dienTich());
 	}
-	public static <E> void inMang(E[]  arr) {
-		for(E x:arr) {
-			System.out.print(x+" ");
-		}
-	}
 	public static void main(String[] args) {
 		HT<Integer> ht1 = new HT<Integer>(5);
 		System.out.println(ht1.xuat());
@@ -31,12 +26,9 @@ public class HT<T> {
 		HT<Double> ht3 = new HT<Double>(5.5);
 		System.out.println(ht3.xuat());
 		//
-		System.out.println("Mảng a:");
-		Integer[] a =  {1,5,8,7,6};
-		inMang(a);
-		System.out.println("\nMảng b:");
-		Double[] b =  {1.5,5.2,8.5,7.8,6.9};
-		inMang(b);
+		HT ht = new HT<>(5);
+		System.out.println(ht.xuat());
+		
 	}
 	
 }

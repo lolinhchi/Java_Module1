@@ -20,7 +20,7 @@ public class HT<T> {
 	}
 	public static <E> void inMang(E[]  arr) {
 		for(E x:arr) {
-			System.out.print(x+" ");
+			System.out.println(x);
 		}
 	}
 	public static void main(String[] args) {
@@ -34,9 +34,6 @@ public class HT<T> {
 		System.out.println("Mảng a:");
 		Integer[] a =  {1,5,8,7,6};
 		inMang(a);
-		System.out.println("\nMảng b:");
-		Double[] b =  {1.5,5.2,8.5,7.8,6.9};
-		inMang(b);
 	}
 	
 }
