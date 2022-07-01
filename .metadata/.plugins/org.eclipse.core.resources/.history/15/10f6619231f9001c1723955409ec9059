@@ -1,0 +1,19 @@
+package thuchanh;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class VD2 {
+	public static void main(String[] args) {
+		System.out.println("Danh sách List");
+		ArrayList ds1 = new ArrayList<>();
+		ds1.add("abc");
+		ds1.add(new Date());
+		ds1.add(true);
+		ds1.add(1.5);
+		ds1.add("abc");
+		for(Object ob : ds1) {
+			System.out.println(ob.toString());
+		}
+	}
+}
