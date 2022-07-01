@@ -1,0 +1,8 @@
+package thuchanh;
+
+public class Snippet {
+	public static void main(String[] args) {
+		txtKq.setText(ts + "/" + ms);
+	}
+}
+

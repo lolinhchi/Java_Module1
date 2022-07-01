@@ -1,0 +1,17 @@
+package thuchanh.truutuong;
+
+public class HV extends HinhHoc {
+
+	@Override
+	public double chuVi() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double dienTich() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

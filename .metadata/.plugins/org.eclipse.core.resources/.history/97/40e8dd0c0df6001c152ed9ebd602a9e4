@@ -1,0 +1,13 @@
+package thuchanh;
+
+import java.util.Date;
+
+public class Test {
+
+	public static void main(String[] args) {
+		HocSinh hs = new HocSinh();
+		hs.xuat();
+		HocSinh hs1  = new HocSinh("Lo Linh Chi", new Date(), false, "DHSP", "CNTTA");
+		hs1.xuat();
+	}
+}

@@ -1,0 +1,8 @@
+package thuchanh;
+
+public class Animal {
+
+	private String name;
+	private String image;
+	
+}

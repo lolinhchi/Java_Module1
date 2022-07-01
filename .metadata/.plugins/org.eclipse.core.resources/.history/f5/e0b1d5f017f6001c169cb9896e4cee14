@@ -1,0 +1,5 @@
+package thuchanh.truutuong;
+
+public abstract class HinhHoc {
+
+}

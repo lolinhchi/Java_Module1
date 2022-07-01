@@ -1,0 +1,9 @@
+package thuchanh;
+
+public class Nguoi {
+
+	private String ht;
+	private String ns;
+	private String gt;
+	
+}

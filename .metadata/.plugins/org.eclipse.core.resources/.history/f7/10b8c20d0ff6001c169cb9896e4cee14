@@ -1,0 +1,5 @@
+package thuchanh;
+
+public class Dog extends Animal {
+
+}
