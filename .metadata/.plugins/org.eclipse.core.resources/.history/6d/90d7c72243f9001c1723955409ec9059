@@ -133,7 +133,7 @@ public class FrmTuDien extends JFrame {
 		txtW.setColumns(10);
 		
 		JLabel lblNewLabel_3 = new JLabel("Meaning");
-		lblNewLabel_3.setBounds(10, 91, 57, 14);
+		lblNewLabel_3.setBounds(10, 91, 46, 14);
 		panel_1.add(lblNewLabel_3);
 		
 		txtM = new JTextField();
