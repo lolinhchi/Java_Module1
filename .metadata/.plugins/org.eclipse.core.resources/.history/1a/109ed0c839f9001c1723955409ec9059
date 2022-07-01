@@ -1,0 +1,5 @@
+package thuchanh.Bai7_1;
+
+public class Mang<T> {
+	private List<T> mang
+}
