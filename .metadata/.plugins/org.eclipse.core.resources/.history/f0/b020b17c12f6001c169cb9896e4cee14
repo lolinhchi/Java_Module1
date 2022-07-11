@@ -1,8 +1,0 @@
-package thuchanh;
-
-public class Snippet {
-	public NhanVien(int heSo) {
-			this.heSo = heSo;
-		}
-}
-

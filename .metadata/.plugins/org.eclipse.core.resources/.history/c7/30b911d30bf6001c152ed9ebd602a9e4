@@ -1,5 +1,0 @@
-package thuchanh;
-
-public class HocSinh extends Nguoi {
-
-}
