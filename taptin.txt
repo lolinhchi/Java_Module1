@@ -1,0 +1,19 @@
+lập trình tập tin
+
+Các lớp đọc tập tin
+	1. FileInputStream   	byte <- byte
+	2. FileReader      	char <- char
+	3. Scanner         	type <- ASCII
+	4. DataInputStream 	type <- type
+	5. ObjectInputStream 	object <- object
+Các lớp ghi tập tin
+	6. FileOutputStream
+	7. FileWriter
+	8. PrintWriter
+	9. DataOutputStream
+	10. ObjectOutputSrteam
+Các lớp đọc ghi Buffer
+	11. BufferInputstream	byte
+	12. BufferOutputStream	byte
+	13. BufferReader	char
+	14. BufferWriter	char
